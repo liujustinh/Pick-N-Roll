@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #dddde9;
+    z-index: 100;
+}
+
+.header__logo {
+    display: flex;
+    object-fit: contain;
+    height: 40px;
+}
+
+.header__icon {
+    display: flex;
+    position: absolute;
+    left: 10%;
+}
+
+.header__auth {
+    display: flex;
+    position: absolute;
+    right: 1%;
+    font-size: 5px;
+}
+
+.header__auth_buttons {
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header__user {
+    display: flex;
+    position: absolute;
+    right: 1%;
+}
+
+.header__title {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    font-family: cursive;
+    font-size: 30px;
+}
