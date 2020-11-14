@@ -1,6 +1,6 @@
 # Pick-N-Roll
 ===================================
-- A web app where people can locate nearby basketball courts
+- A web app where people can locate nearby basketball courts and setup games
 - Users can invite other users and setup 1v1, 2v2, 3v3, 4v4, 5v5 games
 
 
