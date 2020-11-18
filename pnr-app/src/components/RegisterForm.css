@@ -1,4 +1,4 @@
-.login {
+.register {
     align-items: center;
     position: relative;
     top: 80px;
@@ -8,12 +8,6 @@
     border-style: groove;
 }
 
-.login__button {
+.register__button {
     width: 100%;
-}
-
-h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: auto;
-    text-align: center;
 }

@@ -38,7 +38,7 @@
 .header__title {
     display: flex;
     position: absolute;
-    left: 50%;
+    left: 45%;
     font-family: cursive;
     font-size: 30px;
 }
