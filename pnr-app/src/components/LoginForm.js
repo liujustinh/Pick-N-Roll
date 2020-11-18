@@ -32,6 +32,9 @@ const LoginForm = (props) => {
     return (
         <Container className='login'>
             <Form onSubmit={handleLogin}>
+                <h1 className='login__title'>
+                    Member Login
+                </h1>
                 <Form.Group controlId='formBasicUsername'>
                     <Form.Label style={{fontFamily: "“Helvetica Neue”, Helvetica, Arial, sans-serif"}}>Username</Form.Label>
                     <Form.Control {...username} placeholder='Enter username'/>

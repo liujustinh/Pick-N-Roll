@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Link, useRouteMatch, useHistory
 import Header from './components/Header'
 import LoginForm from './components/LoginForm'
 import RegisterForm from './components/RegisterForm'
+import HomePage from './components/HomePage'
 
 import './App.css'
 
@@ -10,6 +11,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <HomePage />
       <Switch>
         <Route path='/login'>
           <LoginForm />

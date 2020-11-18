@@ -4,8 +4,13 @@
     top: 80px;
     padding: 20px;
     width: 40%;
-    background-color: #f7f7f7;
-    border-style: groove;
+    background-color: #fdfdfd;
+}
+
+.register__title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: auto;
+    text-align: center;
 }
 
 .register__button {

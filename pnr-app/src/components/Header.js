@@ -15,11 +15,11 @@ const Header = (props) => {
 
     return (
         <div className='header'>
-            <IconButton className='header__logo' href='/home'>
+            <IconButton className='header__logo' href='/'>
                 <img aref='/home' src="https://img.icons8.com/material/48/000000/basketball.png" alt='Basketball Icon'/>
             </ IconButton>
             
-            <IconButton className='header__icon'>
+            <IconButton className='header__icon' href='/ball'>
                 <SportsBasketballIcon  />
             </IconButton>
 

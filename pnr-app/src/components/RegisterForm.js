@@ -18,17 +18,17 @@ const RegisterForm = (props) => {
 
     const handleCreateUser = async (e) => {
         e.preventDefault()
-        if (username.value.length === 0 || password.value.length === 0) {
-            console.log('Username or password missing')
-            return
-        }
-        if (password.value !== confirmPassword.value) {
-            console.log('Passwords do not match up')
-            resetPassword()
-            resetConfirmPassword()
-            return
-        }
         try {
+            if (username.value.length === 0 || password.value.length === 0) {
+                console.log('Username or password missing')
+                return
+            }
+            if (password.value !== confirmPassword.value) {
+                console.log('Passwords do not match up')
+                resetPassword()
+                resetConfirmPassword()
+                return
+            }
             console.log(`Username: ${username.value}  Password: ${password.value}`)
             resetForm()
             history.push('/login')
@@ -41,7 +41,7 @@ const RegisterForm = (props) => {
     return (
         <Container className='register'>
             <Form onSubmit={handleCreateUser}>
-                <h1 className='form-title'>
+                <h1 className='register__title'>
                     Register
                 </h1>
                 <Form.Group controlId='formBasicUsername'>
