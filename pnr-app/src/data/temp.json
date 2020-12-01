@@ -1,0 +1,20 @@
+[
+   {
+      "Prop_ID":"X159",
+      "Name":"174th Street Playground",
+      "Location":"E 174 St. & Bronx River Ave.",
+      "Num_of_Courts":null,
+      "Accessible":"N",
+      "lat":"40.8342",
+      "lon":"-73.8775"
+   },
+   {
+      "Prop_ID":"X179",
+      "Name":"52 Playground",
+      "Location":"Kelly St. & Ave. St. John",
+      "Num_of_Courts":null,
+      "Accessible":"N",
+      "lat":"40.8149",
+      "lon":"-73.9021"
+   }
+]

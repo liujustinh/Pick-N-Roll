@@ -1,0 +1,29 @@
+[
+    {
+        "ID": "X1",
+        "Name": "Live Oak Park",
+        "Location": "10144 Bogue St.",
+        "NumCourts": 5,
+        "OpenCourts": 4,
+        "coordinates": [34.102768, -118.047837],
+        "user": ""
+    },
+    {
+        "ID": "X2",
+        "Name": "Rosemead Park",
+        "Location": "4343 Encinita Ave.",
+        "NumCourts": 4,
+        "OpenCourts": 4,
+        "coordinates": [34.084919, -118.068824],
+        "user": ""
+    },
+    {
+        "ID": "X3",
+        "Name": "Arcadia County Park",
+        "Location": "405 S Santa Anita Ave.",
+        "NumCourts": 4,
+        "OpenCourts": 4,
+        "coordinates": [34.136856, -118.033409],
+        "user": ""
+    }
+]

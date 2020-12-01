@@ -11,13 +11,15 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <HomePage />
       <Switch>
         <Route path='/login'>
           <LoginForm />
         </Route>
         <Route path='/register'>
           <RegisterForm />
+        </Route>
+        <Route path='/'>
+          <HomePage />
         </Route>
       </Switch>
     </div>
