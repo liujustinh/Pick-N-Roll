@@ -4,6 +4,7 @@ import Header from './components/Header'
 import LoginForm from './components/LoginForm'
 import RegisterForm from './components/RegisterForm'
 import HomePage from './components/HomePage'
+import LaunchPage from './components/LaunchPage'
 
 import './App.css'
 
@@ -18,8 +19,11 @@ function App() {
         <Route path='/register'>
           <RegisterForm />
         </Route>
-        <Route path='/'>
+        <Route path='/ball'>
           <HomePage />
+        </Route>
+        <Route path='/'>
+          <LaunchPage/>
         </Route>
       </Switch>
     </div>

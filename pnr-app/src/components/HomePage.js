@@ -9,6 +9,9 @@ import ballIcon from '../icons/ballIcon'
 
 const HomePage = (props) => {
 
+    const handleJoinCourt = () => {
+        
+    }
 
     return (
         <div className='home'>
@@ -20,7 +23,11 @@ const HomePage = (props) => {
                 {courtData.default.map(court => (
                     <Marker key={court.ID} position={court.coordinates} icon={ballIcon}>
                         <Popup>
-                            {court.Name}
+                            <p>{court.Name}</p>
+                            <p>Available courts: {court.OpenCourts}</p>
+                            <button className='' onClick={handleJoinCourt}>
+                                Join
+                            </button>
                         </Popup>
                     </Marker>
                 ))}
